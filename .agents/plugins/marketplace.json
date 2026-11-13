@@ -1,0 +1,12 @@
+{
+  "name": "candor-sh",
+  "interface": { "displayName": "Candor" },
+  "plugins": [
+    {
+      "name": "candor",
+      "source": { "source": "url", "url": "https://github.com/candor-sh/plugin.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}

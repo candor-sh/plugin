@@ -1,0 +1,26 @@
+{
+  "name": "candor",
+  "version": "0.5.55",
+  "description": "Run AI-moderated user studies and human evaluations: create studies, recruit participants, and get prioritized findings.",
+  "author": { "name": "Candor", "url": "https://candor.sh" },
+  "homepage": "https://candor.sh",
+  "repository": "https://github.com/candor-sh/plugin",
+  "keywords": ["user-research", "user-testing", "usability", "evaluation", "candor"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Candor",
+    "shortDescription": "AI-moderated user studies",
+    "longDescription": "Candor lets your agent run user studies and human evaluations with real participants. Describe what you want to learn; the agent drafts a study, shows the cost, waits for your approval, recruits participants or gives you shareable links, and returns prioritized findings or rankings. Requires the Candor CLI (installed on first use) and a Candor account. Needs a shell, so it works in Codex and ChatGPT desktop, not ChatGPT on the web.",
+    "developerName": "Candor",
+    "category": "Developer Tools",
+    "capabilities": ["Create user studies", "Recruit participants", "Monitor study progress", "Read prioritized findings"],
+    "websiteURL": "https://candor.sh",
+    "defaultPrompt": [
+      "Run a user study on this product's onboarding flow with 5 users",
+      "Compare these two landing page designs with real people",
+      "Show the findings from my latest Candor study"
+    ],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "candor",
+  "displayName": "Candor",
+  "version": "0.5.55",
+  "description": "Run AI-moderated user studies and human evaluations with real participants, then get prioritized findings back in your agent.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Run a user study on this product's onboarding flow with 5 users",
+    "Compare these two landing page designs with real people",
+    "Show the findings from my latest Candor study"
+  ],
+  "author": { "name": "Candor", "url": "https://candor.sh" },
+  "homepage": "https://candor.sh",
+  "repository": "https://github.com/candor-sh/plugin",
+  "keywords": ["user-research", "user-testing", "usability", "evaluation", "candor"]
+}

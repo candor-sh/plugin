@@ -1,0 +1,10 @@
+{
+  "name": "candor",
+  "version": "0.5.55",
+  "description": "Run AI-moderated user studies and human evaluations from Devin: create studies, recruit participants, and get prioritized findings.",
+  "author": { "name": "Candor", "url": "https://candor.sh" },
+  "homepage": "https://candor.sh",
+  "repository": "https://github.com/candor-sh/plugin",
+  "keywords": ["user-research", "user-testing", "usability", "evaluation", "candor"],
+  "logo": "assets/logo.png"
+}
