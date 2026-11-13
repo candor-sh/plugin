@@ -1,5 +1,6 @@
 {
   "name": "candor-sh",
+  "description": "Official Candor plugins: AI-moderated user studies and human evaluations.",
   "owner": { "name": "Candor", "url": "https://candor.sh" },
   "plugins": [
     { "name": "candor", "source": "./", "description": "Run AI-moderated user studies and human evaluations from your coding agent." }
